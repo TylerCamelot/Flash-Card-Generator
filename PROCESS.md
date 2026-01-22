@@ -19,27 +19,87 @@ No code was copied from external repositories; all functionality was developed t
 
 ---
 
-## 2. Key Prompts Used (5–10 Examples)
+## AI Prompt Log (Copy/Paste Prompts Used)
 
-Below are representative prompts used during development (copied verbatim or lightly shortened for clarity):
+Below are the prompts I used with ChatGPT during development. These prompts guided the majority of the application’s architecture, logic, UI, and refactoring.
 
-1. **“Generate the initial `app.py` structure using Streamlit that includes a title, a text area for pasting study material, a sidebar for configuration, and a ‘Generate Flashcards’ button.”**
+---
 
-2. **“Write a Python function that takes study material text and uses an LLM to generate flashcards in JSON format, with question, answer, and difficulty fields, including error handling.”**
+### Prompt 1 — Streamlit App Scaffold
+I am building a Streamlit application called “Study Flashcard Generator.”  
+Please generate the initial app.py structure with:
+- Page title and description
+- Text area for pasting study material
+- Sidebar configuration (number of cards, difficulty)
+- A “Generate Flashcards” button  
+Use clean, well-commented Python code.
 
-3. **“Improve the flashcard generation function so the LLM is forced to return valid JSON only, retry once if parsing fails, and raise a user-friendly error if it fails again.”**
+---
 
-4. **“Using Streamlit, display generated flashcards in an editable format where users can review, edit, delete cards, and store results in `st.session_state`.”**
+### Prompt 2 — LLM Flashcard Generation (Strict JSON)
+Write a Python function that takes study material text and uses an LLM  
+to generate flashcards in STRICT JSON format only.
 
-5. **“Add a quiz mode where flashcards are shown one at a time in random order, allow self-grading, track score, and display missed questions.”**
+Each flashcard should include:
+- question
+- answer
+- difficulty (Easy / Medium / Hard)
 
-6. **“Add a fallback ‘Mock Mode’ that generates reasonable flashcards without an LLM so the app remains fully functional without an API key.”**
+Include robust error handling and retry once if JSON parsing fails.
 
-7. **“Improve Mock Mode so it extracts term-definition pairs, formulas, and mnemonics instead of echoing text.”**
+---
 
-8. **“Add functionality to export flashcards to Anki (TSV) and Quizlet (CSV) with download buttons in Streamlit.”**
+### Prompt 3 — Mock Mode Fallback (No LLM)
+Add a fallback “Mock Mode” for flashcard generation that does not use an LLM.
 
-9. **“Refactor the Streamlit app for readability, add docstrings, inline comments, and robust error handling.”**
+The mock generator should:
+- Extract term–definition pairs when possible
+- Create reasonable question–answer flashcards
+- Avoid echoing the input text
+- Still support quiz functionality and scoring
+
+Provide Python code suitable for a Streamlit app.
+
+---
+
+### Prompt 4 — Flashcard Review UI (Editable)
+Using Streamlit, display generated flashcards in an editable review section.
+
+Users should be able to:
+- Edit questions and answers
+- Delete selected flashcards
+- Persist changes using st.session_state
+
+Include clean UI and inline comments.
+
+---
+
+### Prompt 5 — Quiz Mode with Scoring
+Add a quiz mode to the Streamlit app where:
+- Flashcards are shown one at a time in random order
+- Users can reveal the answer
+- Users self-grade as correct or incorrect
+- The app tracks score and displays missed questions at the end
+
+Use session state to manage quiz progress.
+
+---
+
+### Prompt 6 — Refactor for Readability + Robustness
+Refactor the Streamlit app to improve readability and robustness.
+
+Add:
+- Clear docstrings
+- Inline comments
+- Error handling for empty input, API failures, and invalid user actions
+
+Ensure the app remains fully functional without an API key.
+
+---
+
+### Prompt 7 — Single Executable File
+Combine all of this code into a single code file that is ready to execute.
+
 
 ---
 
