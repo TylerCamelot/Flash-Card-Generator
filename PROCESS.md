@@ -195,3 +195,20 @@ Key takeaways include:
 
 The final application is fully functional, resilient to API failures, and suitable for real-world use as a study aid.
 
+---
+## 8. Screenshots
+<img width="540" height="931" alt="image" src="https://github.com/user-attachments/assets/96832b6f-590d-420b-99ac-985c8668f1ad" />
+<img width="600" height="892" alt="image" src="https://github.com/user-attachments/assets/d3073ac0-1689-4b34-81ba-67420604dad5" />
+<img width="756" height="882" alt="image" src="https://github.com/user-attachments/assets/d42d64b8-64c9-4266-959e-498d1e7debe5" />
+<img width="547" height="936" alt="image" src="https://github.com/user-attachments/assets/3535e0e7-6a4b-4e6e-bbd7-26fadfe6ae70" />
+<img width="662" height="918" alt="image" src="https://github.com/user-attachments/assets/aa9b3e44-e92d-45de-a2b5-98e1f55f35ce" />
+<img width="628" height="880" alt="image" src="https://github.com/user-attachments/assets/da4e2ea3-e745-4c88-8aa5-6d28ff8e2bb3" />
+<img width="502" height="930" alt="image" src="https://github.com/user-attachments/assets/3c0823fb-9402-46d1-ad74-4ef905ae35d9" />
+
+
+
+
+
+
+
+
