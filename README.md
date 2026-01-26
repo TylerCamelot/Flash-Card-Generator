@@ -61,4 +61,22 @@ A Streamlit-based application that automatically generates study flashcards from
 ## Value
 - The value behind this project is clear, it provides students with an easy-to-use tool to automatically create flashcards from their notes with little effort.
 
+---
+
+## Images
+<img width="540" height="931" alt="image" src="https://github.com/user-attachments/assets/ca0d3fcd-50aa-4b36-b4a8-075c017f4e60" />
+<img width="600" height="892" alt="image" src="https://github.com/user-attachments/assets/eb9ad550-3818-4a3c-a61a-84d3b5bb7131" />
+<img width="756" height="882" alt="image" src="https://github.com/user-attachments/assets/460ec541-03fe-4d92-a17b-cba0e409d005" />
+<img width="547" height="936" alt="image" src="https://github.com/user-attachments/assets/eb9b51bf-5c9f-47d9-bed6-43c9bb7b91cc" />
+<img width="662" height="918" alt="image" src="https://github.com/user-attachments/assets/e05fdf6b-89b3-4687-b794-9cd8ee312218" />
+<img width="628" height="880" alt="image" src="https://github.com/user-attachments/assets/83353489-aecf-4cbb-816c-6972114e33dd" />
+<img width="502" height="930" alt="image" src="https://github.com/user-attachments/assets/32bc6725-5957-4eca-930c-02feb11d885c" />
+
+
+
+
+
+
+
+
 
