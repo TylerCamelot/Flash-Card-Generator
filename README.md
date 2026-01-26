@@ -7,6 +7,10 @@ A Streamlit-based application that automatically generates study flashcards from
 - Step 1: download app.py and docgen.py
 - Step 2: type streamlit run app.py into console (run locally)
 - Step 3: use the Usage list below to use the website
+
+---
+## Video Demo
+- https://www.youtube.com/watch?v=isUMJF7xWZg
 ---
 ## Usage
   - Generate Flashcards: copy notes/information into text box and click generate flashcards
