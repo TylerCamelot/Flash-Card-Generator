@@ -53,6 +53,7 @@ A Streamlit-based application that automatically generates study flashcards from
 
 ---
 
-
+## Value
+- The value behind this project is clear, it provides students with an easy-to-use tool to automatically create flashcards from their notes with little effort.
 
 
