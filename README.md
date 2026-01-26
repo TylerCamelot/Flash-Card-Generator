@@ -3,6 +3,11 @@
 A Streamlit-based application that automatically generates study flashcards from pasted text using a Large Language Model (LLM), with a robust fallback **Mock Mode** to ensure full functionality without an API key. Users can review and edit flashcards, quiz themselves with scoring, and export cards to **Anki** or **Quizlet** formats.
 
 ---
+## How to use
+- Step 1: download app.py and docgen.py
+- Step 2: type streamlit run app.py into console (run locally)
+- Step 3: use the Usage list below to use the website
+---
 ## Usage
   - Generate Flashcards: copy notes/information into text box and click generate flashcards
   - Editing Flashcards: edit flashcards and answers inline if necessary
